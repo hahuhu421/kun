@@ -1,0 +1,29 @@
+{
+  "report_id": "compliance_report_20260212_132853",
+  "compliance_level": "建议优化",
+  "total_score": 50,
+  "issues": [
+    {
+      "type": "营养标签缺失",
+      "word": "能量,蛋白质,脂肪,饱和脂肪,饱和脂肪酸,碳水化合物,糖,钠",
+      "level": "medium",
+      "description": "缺少强制标示的营养成分：能量, 蛋白质, 脂肪, 饱和脂肪, 饱和脂肪酸, 碳水化合物, 糖, 钠",
+      "basis": "依据GB28050，必须标示能量、蛋白质、脂肪、碳水化合物、钠等营养成分",
+      "suggestion": "请补充标示：能量, 蛋白质, 脂肪, 饱和脂肪, 饱和脂肪酸, 碳水化合物, 糖, 钠"
+    }
+  ],
+  "issue_count": 1,
+  "suggestions": [
+    "请补充标示：能量, 蛋白质, 脂肪, 饱和脂肪, 饱和脂肪酸, 碳水化合物, 糖, 钠"
+  ],
+  "checked_at": "2026-02-12T13:28:53.954393",
+  "input_summary": {
+    "video_text_length": 38,
+    "note_text_length": 15,
+    "combined_text_length": 36,
+    "nutrition_data": {},
+    "nutrition_claims": [],
+    "has_report": false
+  },
+  "rules_version": "1.0"
+}

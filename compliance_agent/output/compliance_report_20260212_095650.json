@@ -1,0 +1,41 @@
+{
+  "report_id": "compliance_report_20260212_095650",
+  "compliance_level": "严重违规",
+  "total_score": 150,
+  "issues": [
+    {
+      "type": "虚假宣传",
+      "word": "绝对",
+      "level": "critical",
+      "description": "检测到虚假宣传关键词'绝对'",
+      "basis": "依据《广告法》第28条，广告不得含有虚假或者引人误解的内容",
+      "suggestion": "请删除'绝对'，避免使用绝对化表述"
+    },
+    {
+      "type": "营养标签缺失",
+      "word": "能量,蛋白质,脂肪,饱和脂肪,饱和脂肪酸,碳水化合物,糖,钠",
+      "level": "medium",
+      "description": "缺少强制标示的营养成分：能量, 蛋白质, 脂肪, 饱和脂肪, 饱和脂肪酸, 碳水化合物, 糖, 钠",
+      "basis": "依据GB28050，必须标示能量、蛋白质、脂肪、碳水化合物、钠等营养成分",
+      "suggestion": "请补充标示：能量, 蛋白质, 脂肪, 饱和脂肪, 饱和脂肪酸, 碳水化合物, 糖, 钠"
+    }
+  ],
+  "issue_count": 2,
+  "suggestions": [
+    "请补充标示：能量, 蛋白质, 脂肪, 饱和脂肪, 饱和脂肪酸, 碳水化合物, 糖, 钠",
+    "请删除'绝对'，避免使用绝对化表述"
+  ],
+  "checked_at": "2026-02-12T09:56:50.856136",
+  "input_summary": {
+    "video_text_length": 0,
+    "note_text_length": 19,
+    "combined_text_length": 19,
+    "nutrition_data": {},
+    "nutrition_claims": [
+      "纯天然",
+      "有机"
+    ],
+    "has_report": false
+  },
+  "rules_version": "1.0"
+}

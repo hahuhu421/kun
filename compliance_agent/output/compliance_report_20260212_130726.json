@@ -1,0 +1,49 @@
+{
+  "report_id": "compliance_report_20260212_130726",
+  "compliance_level": "严重违规",
+  "total_score": 200,
+  "issues": [
+    {
+      "type": "绝对化用语",
+      "word": "最佳",
+      "level": "high",
+      "description": "检测到绝对化用语'最佳'",
+      "basis": "依据《广告法》第11条，不得使用绝对化用语，除非有充分证据支持",
+      "suggestion": "请删除或修改'最佳'，使用更客观的表述"
+    },
+    {
+      "type": "绝对化用语",
+      "word": "最",
+      "level": "high",
+      "description": "检测到绝对化用语'最'",
+      "basis": "依据《广告法》第11条，不得使用绝对化用语，除非有充分证据支持",
+      "suggestion": "请删除或修改'最'，使用更客观的表述"
+    },
+    {
+      "type": "营养标签缺失",
+      "word": "蛋白质,脂肪,饱和脂肪,饱和脂肪酸,碳水化合物,钠",
+      "level": "medium",
+      "description": "缺少强制标示的营养成分：蛋白质, 脂肪, 饱和脂肪, 饱和脂肪酸, 碳水化合物, 钠",
+      "basis": "依据GB28050，必须标示能量、蛋白质、脂肪、碳水化合物、钠等营养成分",
+      "suggestion": "请补充标示：蛋白质, 脂肪, 饱和脂肪, 饱和脂肪酸, 碳水化合物, 钠"
+    }
+  ],
+  "issue_count": 3,
+  "suggestions": [
+    "请删除或修改'最佳'，使用更客观的表述",
+    "请补充标示：蛋白质, 脂肪, 饱和脂肪, 饱和脂肪酸, 碳水化合物, 钠",
+    "请删除或修改'最'，使用更客观的表述"
+  ],
+  "checked_at": "2026-02-12T13:07:26.157737",
+  "input_summary": {
+    "video_text_length": 0,
+    "note_text_length": 23,
+    "combined_text_length": 23,
+    "nutrition_data": {},
+    "nutrition_claims": [
+      "低糖"
+    ],
+    "has_report": false
+  },
+  "rules_version": "1.0"
+}
